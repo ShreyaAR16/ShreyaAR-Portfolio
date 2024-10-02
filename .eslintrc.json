@@ -1,3 +1,9 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "no-unused-vars": "off",          // Disable unused variables rule
+    "react/react-in-jsx-scope": "off", // Disable the rule requiring React in scope (if using React 17+)
+    "no-console": "warn"              // Warn on console logs (optional)
+    // Add other rules you want to customize here
+  }
 }

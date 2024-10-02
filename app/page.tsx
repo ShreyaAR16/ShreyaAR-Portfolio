@@ -1,6 +1,4 @@
 'use client'
-
-import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Github, Linkedin, Mail, User, Briefcase, Code, GraduationCap, FileDown } from 'lucide-react'
@@ -39,9 +37,7 @@ export default function Home() {
             <div className="md:w-1/2 mb-8 md:mb-0">
               <h2 className="text-4xl font-bold mb-4">Hi There!</h2>
               <h3 className="text-4xl font-bold mb-4 text-teal-400">I'm Shreya A R</h3>
-              <p className="text-2xl mb-6">
-                Computer Science Engineer
-              </p>
+              <p className="text-2xl mb-6">Computer Science Engineer</p>
               <div className="space-x-4">
                 <a href="/Shreya_AR_Resume.pdf" download className="inline-block text-sm px-4 py-2 bg-black bg-opacity-30 hover:bg-opacity-50 transition-colors">
                   <FileDown className="w-4 h-4 inline-block mr-1" />
