@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { GraduationCap, ArrowLeft } from 'lucide-react'
+import { GraduationCap} from 'lucide-react'
 import GradientBackground from '../components/GradientBackground'
 
 export default function Education() {

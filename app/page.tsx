@@ -7,11 +7,7 @@ import { Github, Linkedin, Mail, User, Briefcase, Code, GraduationCap, FileDown 
 import GradientBackground from './components/GradientBackground'
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(true)
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode)
-  }
 
   return (
     <GradientBackground>

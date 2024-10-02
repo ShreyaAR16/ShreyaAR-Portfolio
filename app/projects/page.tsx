@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Code, ArrowLeft } from 'lucide-react'
+import { Code} from 'lucide-react'
 import GradientBackground from '../components/GradientBackground'
 
 export default function Projects() {

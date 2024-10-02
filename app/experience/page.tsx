@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { Briefcase, ArrowLeft } from 'lucide-react'
+import { Briefcase} from 'lucide-react'
 import GradientBackground from '../components/GradientBackground'
 
 export default function Experience() {
