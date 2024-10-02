@@ -3,12 +3,18 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Github, Linkedin, Mail, User, Briefcase, Code, GraduationCap, FileDown } from 'lucide-react'
 import GradientBackground from './components/GradientBackground'
+import Head from 'next/head'
 
 export default function Home() {
 
 
   return (
+    
     <GradientBackground>
+      <Head>
+        <title>Shreya A R - Portfolio</title>
+        <link rel="icon" href="/favicon.ico" /> {/* Add a favicon if you have one */}
+      </Head>
       <div className="max-w-6xl mx-auto px-4 py-12">
         <header className="flex justify-end items-center mb-12">
           <div className="flex items-center space-x-4">
