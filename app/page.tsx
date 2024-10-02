@@ -36,7 +36,7 @@ export default function Home() {
           <section className="flex flex-col md:flex-row items-center justify-between">
             <div className="md:w-1/2 mb-8 md:mb-0">
               <h2 className="text-4xl font-bold mb-4">Hi There!</h2>
-              <h3 className="text-4xl font-bold mb-4 text-teal-400">I'm Shreya A R</h3>
+              <h3 className="text-4xl font-bold mb-4 text-teal-400">I&apos;m Shreya A R</h3>
               <p className="text-2xl mb-6">Computer Science Engineer</p>
               <div className="space-x-4">
                 <a href="/Shreya_AR_Resume.pdf" download className="inline-block text-sm px-4 py-2 bg-black bg-opacity-30 hover:bg-opacity-50 transition-colors">
@@ -70,8 +70,7 @@ export default function Home() {
 
           <div className="flex justify-center items-center">
           <section className="text-center">
-            <h2 className="text-4xl font-semibold mb-4 text-teal-500">Let's Connect!</h2>
-    
+          <h2 className="text-4xl font-semibold mb-4 text-teal-500">Let&apos;s Connect!</h2>
           </section>
           </div>
 
