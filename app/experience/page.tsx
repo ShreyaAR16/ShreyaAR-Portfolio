@@ -21,11 +21,13 @@ export default function Experience() {
           <h2 className="text-2xl font-semibold mb-4 text-teal-400">R&D Intern at Hewlett Packard Enterprise (HPE)</h2>
           <p className="mb-2">Feb 2024 - August 2024</p>
           <p>
-          <ul>Developed a Log Analyzer Utility for VMware Support Bundles that automated the extraction, comparison, and analysis of configuration data from ESXi host logs, reducing manual effort by up to 40%.</ul>
-          <ul>Led the development of Python scripts for log analysis and troubleshooting, identifying critical issues and generating unified reports for faster resolution.</ul>
-          <ul>Collaborated with engineering teams to improve operational efficiency, enhancing the accuracy and speed of data analysis.</ul>
-          <ul>Demonstrated strong problem-solving skills by analyzing backtrace snippets to troubleshoot system errors and optimize precheck information collection.</ul>
-          <ul>Improved customer satisfaction by streamlining processes and reducing engineering time through automation.</ul>
+            <ul>
+          <li>Developed a Log Analyzer Utility for VMware Support Bundles that automated the extraction, comparison, and analysis of configuration data from ESXi host logs, reducing manual effort by up to 40%.</li>
+          <li>Led the development of Python scripts for log analysis and troubleshooting, identifying critical issues and generating unified reports for faster resolution.</li>
+          <li>Collaborated with engineering teams to improve operational efficiency, enhancing the accuracy and speed of data analysis.</li>
+          <li>Demonstrated strong problem-solving skills by analyzing backtrace snippets to troubleshoot system errors and optimize precheck information collection.</li>
+          <li>Improved customer satisfaction by streamlining processes and reducing engineering time through automation.</li>
+          </ul>
           </p>
         </div>
       </div>
