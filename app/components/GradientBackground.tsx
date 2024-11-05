@@ -8,7 +8,7 @@ const generateStars = (count: number) => {
     top: `${Math.random() * 100}%`,
     left: `${Math.random() * 100}%`,
     size: Math.random() * 2 + 1, // Increased minimum size
-    delay: Math.random() * 2,
+    delay: Math.random() * 5,
   }))
 }
 
