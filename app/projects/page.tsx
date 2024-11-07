@@ -9,7 +9,6 @@ const projects = [
     title: "YouTube Comments Analyser",
     description: "Developed a Flask web application that analyzes YouTube video comments to assess viewer sentiment using the YouTube Data API and TextBlob for sentiment scoring.",
     repo: "https://github.com/ShreyaAR16/FeelTube"
-    
   },
   {
     title: "Rule Engine App",
@@ -25,7 +24,6 @@ const projects = [
     title: "Matrix Partition System",
     description: "A Python script to numerically solve systems of equations using matrix partitioning.",
     repo: "https://github.com/ShreyaAR16/Matrix-Partition"
-    
   },
   {
     title: "Weather Forecast App",
@@ -52,16 +50,23 @@ export default function Projects() {
           Projects
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="bg-black bg-opacity-30 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
-              <div className="flex justify-between items-start mb-4">
-                <h2 className="text-xl font-semibold text-teal-500">{project.title}</h2>
-                <Link href={project.repo} target="_blank" rel="noopener noreferrer">
-                  <Github className="w-6 h-6 text-teal-500 hover:text-teal-400 transition-colors" />
-                </Link>
+            <div 
+              key={index} 
+              className="relative group"
+            >
+              <div className="absolute -inset-0.5 bg-teal-500 rounded-lg blur opacity-30 group-hover:opacity-50 transition duration-300"></div>
+              <div className="relative bg-black bg-opacity-80 p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out 
+                              transform hover:-translate-y-1 hover:scale-[1.02] flex flex-col h-full">
+                <div className="flex justify-between items-start mb-4">
+                  <h2 className="text-xl font-semibold text-teal-500">{project.title}</h2>
+                  <Link href={project.repo} target="_blank" rel="noopener noreferrer">
+                    <Github className="w-6 h-6 text-teal-500 hover:text-teal-400 transition-colors" />
+                  </Link>
+                </div>
+                <p className="text-sm text-gray-300 flex-grow">{project.description}</p>
               </div>
-              <p className="text-sm flex-grow">{project.description}</p>
             </div>
           ))}
         </div>
